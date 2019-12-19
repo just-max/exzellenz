@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1576616356
-ModificationTime: 1576714508
+ModificationTime: 1576793757
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 Lookup: 258 0 0 "kern-lookup" { "both-high" [153,0,2] "kern-lookup-1" [153,15,0] } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 MarkAttachSets: 2
@@ -263,7 +264,7 @@ StartChar: E
 Encoding: 69 69 8
 Width: 471
 VWidth: 0
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Fore
 SplineSet
@@ -356,25 +357,25 @@ EndChar
 
 StartChar: I
 Encoding: 73 73 12
-Width: 412
+Width: 372
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-412 0 m 1
- 412 140 l 1
- 281 140 l 1
- 281 671 l 1
- 412 671 l 1
- 412 811 l 1
+372 0 m 1
+ 372 140 l 1
+ 261 140 l 1
+ 261 671 l 1
+ 372 671 l 1
+ 372 811 l 1
  0 811 l 1
  0 671 l 1
- 131 671 l 1
- 131 140 l 1
+ 111 671 l 1
+ 111 140 l 1
  0 140 l 1
  0 0 l 1
- 412 0 l 1
+ 372 0 l 1
 EndSplineSet
 EndChar
 
@@ -452,8 +453,8 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-471 811 m 5
- 471 0 l 5
+471 811 m 1
+ 471 0 l 1
  321 0 l 1
  150 421 l 1
  150 0 l 1
@@ -462,7 +463,7 @@ SplineSet
  150 811 l 1
  321 366 l 1
  321 811 l 1
- 471 811 l 5
+ 471 811 l 1
 EndSplineSet
 EndChar
 
@@ -496,14 +497,14 @@ StartChar: Y
 Encoding: 89 89 18
 Width: 502
 VWidth: 0
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
 0 671 m 1
  0 811 l 25
  97 811 l 25
- 251 532 l 29
+ 251 532 l 25
  405 811 l 25
  502 811 l 1
  502 671 l 1
