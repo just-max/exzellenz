@@ -36,12 +36,21 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-Lookup: 258 0 0 "kern-lookup" { "left-char-right-full" [153,0,2] "left-char-right-upper-bar" [153,15,0] "left-char-right-lower-bar" [153,15,0] } ['kern' ('latn' <'dflt' > ) ]
+OS2Vendor: 'PfEd'
+Lookup: 258 0 0 "kern-lookup" { "left-char-right-full" [153,0,2] "left-char-right-upper-bar" [153,15,0] "left-char-right-lower-bar" [153,15,0] "left-char-upper-and-lower-point" [153,15,4] } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 MarkAttachSets: 2
 "left-full" 31 A B C D E F G H K L M N P R U W
 "right-full" 11 A H M N U W
 DEI: 91125
+KernClass2: 2 6 "left-char-upper-and-lower-point"
+ 7 C E I Z
+ 35 A B C D E F G H K L M N O P Q R U W
+ 5 I J Z
+ 1 S
+ 1 T
+ 5 V X Y
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -150 {} -10 {} -10 {} -30 {}
 KernClass2: 2 5 "left-char-right-lower-bar"
  3 G S
  35 A B C D E F G H K L M N O P Q R U W
@@ -54,12 +63,14 @@ KernClass2: 2 3 "left-char-right-upper-bar"
  35 A B C D E F G H K L M N O P Q R U W
  1 S
  0 {} 0 {} 0 {} 0 {} 0 {} -50 {}
-KernClass2: 2 4 "left-char-right-full"
+KernClass2: 2 6 "left-char-right-full"
  15 A H M N O Q U W
  35 A B C D E F G H K L M N O P Q R U W
- 9 I J S T Z
+ 5 I J Z
+ 1 S
+ 1 T
  5 V X Y
- 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} -50 {} -10 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} -50 {} -50 {} -50 {} -30 {}
 Encoding: ISO8859-1
 UnicodeInterp: none
 NameList: AGL For New Fonts
