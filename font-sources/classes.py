@@ -107,12 +107,12 @@ if __name__ == "__main__":
 
         if collisions:
             print(f"COLLISIONS ({len(collisions)}):")
-            print(*(f"{i + 1}: {', '.join(v)}" for i, v in enumerate(collisions)), sep="\n")
+            print(*(f"{i + 1}: {', '.join(sorted(v))}" for i, v in enumerate(collisions)), sep="\n")
         else:
             header = f"{side_name.capitalize()} side: {len(all_characters)} characters in " \
                      f"{len(list((k for k in kern_classes if k.characters)))} classes:"
             out_content = "\n".join((f_string.format(c_name=v.name) +
-                                     f": {', '.join(v.characters)}" for i, v in enumerate(kern_classes) if
+                                     f": {' '.join(sorted(v.characters))}" for i, v in enumerate(kern_classes) if
                                      v.characters))
 
             print(header)
