@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1576616356
-ModificationTime: 1576801426
+ModificationTime: 1576848563
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -37,32 +37,80 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 258 0 0 "kern-lookup" { "left-char-right-full" [153,0,2] "left-char-right-upper-bar" [153,15,0] "left-char-right-lower-bar" [153,15,0] "left-char-upper-and-lower-point" [153,15,4] } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "kern-lookup" { "left-char-right-full" [153,0,2] "left-char-upper-and-lower-point" [153,15,4] "left-char-upper-bar-and-lower-point" [153,0,4] "left-char-right-upper-bar-only" [153,15,4] "left-char-right-lower-point-only" [153,0,4] "left-char-lower-bar-and-upper-point" [153,0,2] "left-char-upper-point-only" [153,0,2] "left-char-x-like" [153,0,2] "left-char-d-shape" [153,0,2] } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 MarkAttachSets: 2
 "left-full" 31 A B C D E F G H K L M N P R U W
 "right-full" 11 A H M N U W
 DEI: 91125
+KernClass2: 2 6 "left-char-d-shape"
+ 3 B D
+ 35 A B C D E F G H K L M N O P Q R U W
+ 5 I J Z
+ 1 S
+ 1 T
+ 5 V X Y
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} -70 {} -70 {} -70 {} -70 {}
+KernClass2: 3 6 "left-char-x-like"
+ 3 V Y
+ 1 X
+ 35 A B C D E F G H K L M N O P Q R U W
+ 5 I J Z
+ 1 S
+ 1 T
+ 5 V X Y
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -30 {} -30 {} -80 {} -80 {} 0 {} -30 {} -70 {} -30 {} -80 {} -80 {}
+KernClass2: 2 6 "left-char-upper-point-only"
+ 5 F J T
+ 35 A B C D E F G H K L M N O P Q R U W
+ 5 I J Z
+ 1 S
+ 1 T
+ 5 V X Y
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -50 {} -50 {} -150 {} -80 {}
+KernClass2: 2 7 "left-char-lower-bar-and-upper-point"
+ 3 G S
+ 35 A B C D E F G H K L M N O P Q R U W
+ 3 I J
+ 1 S
+ 1 T
+ 5 V X Y
+ 1 Z
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -10 {} -50 {} -50 {} -30 {} -50 {}
+KernClass2: 2 7 "left-char-right-lower-point-only"
+ 1 L
+ 35 A B C D E F G H K L M N O P Q R U W
+ 5 I J Z
+ 1 S
+ 1 T
+ 3 V Y
+ 1 X
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -50 {} -150 {} -171 {} -180 {} -80 {}
+KernClass2: 2 6 "left-char-upper-bar-and-lower-point"
+ 1 R
+ 35 A B C D E F G H K L M N O P Q R U W
+ 5 I J Z
+ 1 S
+ 1 T
+ 5 V X Y
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -50 {} -50 {} -50 {} -30 {}
 KernClass2: 2 6 "left-char-upper-and-lower-point"
- 7 C E I Z
+ 9 C E I K Z
  35 A B C D E F G H K L M N O P Q R U W
  5 I J Z
  1 S
  1 T
  5 V X Y
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -150 {} -10 {} -10 {} -30 {}
-KernClass2: 2 5 "left-char-right-lower-bar"
- 3 G S
+KernClass2: 2 7 "left-char-right-upper-bar-only"
+ 1 P
  35 A B C D E F G H K L M N O P Q R U W
+ 3 I Z
  1 S
- 7 I J T Z
- 3 X Y
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -50 {} -50 {} -10 {}
-KernClass2: 2 3 "left-char-right-upper-bar"
- 3 P R
- 35 A B C D E F G H K L M N O P Q R U W
- 1 S
- 0 {} 0 {} 0 {} 0 {} 0 {} -50 {}
+ 1 T
+ 5 V X Y
+ 1 J
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -10 {} -150 {} -10 {} -10 {} -100 {}
 KernClass2: 2 6 "left-char-right-full"
  15 A H M N O Q U W
  35 A B C D E F G H K L M N O P Q R U W

@@ -3,8 +3,8 @@
 right_full = {"A", "H", "M", "N", "O", "Q", "U", "W"}
 right_upper_bar = {"P", "R"}
 right_lower_bar = {"G", "S"}
-right_upper_point = {"C", "E", "F", "I", "J", "K", "S", "T", "V", "Y", "Z"}
-right_lower_point = {"C", "E", "I", "L", "R", "X", "Z"}
+right_upper_point = {"C", "E", "F", "G", "I", "J", "K", "S", "T", "V", "Y", "Z"}
+right_lower_point = {"C", "E", "I", "K", "L", "R", "X", "Z"}
 right_d_shape = {"B", "D"}
 right_x_like = {"V", "X", "Y"}
 
