@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1576616356
-ModificationTime: 1576799380
+ModificationTime: 1576801426
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,24 +36,39 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-Lookup: 258 0 0 "kern-lookup" { "both-high" [153,0,2] "kern-lookup-1" [153,15,0] } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "kern-lookup" { "left-char-right-full" [153,0,2] "left-char-right-upper-bar" [153,15,0] "left-char-right-lower-bar" [153,15,0] } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 MarkAttachSets: 2
 "left-full" 31 A B C D E F G H K L M N P R U W
 "right-full" 11 A H M N U W
 DEI: 91125
-KernClass2: 2 2 "both-high"
+KernClass2: 2 5 "left-char-right-lower-bar"
+ 3 G S
+ 35 A B C D E F G H K L M N O P Q R U W
+ 1 S
+ 7 I J T Z
+ 3 X Y
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -50 {} -50 {} -10 {}
+KernClass2: 2 3 "left-char-right-upper-bar"
+ 3 P R
+ 35 A B C D E F G H K L M N O P Q R U W
+ 1 S
+ 0 {} 0 {} 0 {} 0 {} 0 {} -50 {}
+KernClass2: 2 4 "left-char-right-full"
  15 A H M N O Q U W
  35 A B C D E F G H K L M N O P Q R U W
- 0 {} 0 {} 0 {} -150 {}
+ 9 I J S T Z
+ 5 V X Y
+ 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} -50 {} -10 {}
 Encoding: ISO8859-1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 50 10 5
-BeginPrivate: 0
+WinInfo: 60 10 5
+BeginPrivate: 1
+BlueValues 15 [-20 0 811 811]
 EndPrivate
 AnchorClass2: "xyz"""  "as"""  "abc""" 
 BeginChars: 256 28
@@ -108,16 +123,16 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-150 140 m 5
- 321 140 l 5
- 321 671 l 5
- 150 671 l 5
- 150 140 l 5
-0 0 m 5
- 0 811 l 5
- 471 811 l 5
- 471 0 l 5
- 0 0 l 5
+150 140 m 1
+ 321 140 l 1
+ 321 671 l 1
+ 150 671 l 1
+ 150 140 l 1
+0 0 m 1
+ 0 811 l 1
+ 471 811 l 1
+ 471 0 l 1
+ 0 0 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -198,7 +213,6 @@ SplineSet
  299 671 l 1
  150 671 l 1
  150 484 l 1
-0 0 m 1025
 EndSplineSet
 Validated: 1
 EndChar
@@ -244,7 +258,6 @@ SplineSet
  150 140 l 1
  321 140 l 1
  321 639 l 1
-0 0 m 1025
 EndSplineSet
 Validated: 1
 EndChar
@@ -284,8 +297,8 @@ Fore
 SplineSet
 344 344 m 1
  150 344 l 1
- 150 0 l 5
- 0 0 l 5
+ 150 0 l 1
+ 0 0 l 1
  0 811 l 1
  471 811 l 1
  471 671 l 1
@@ -504,7 +517,7 @@ SplineSet
  0 811 l 1
  471 811 l 1
  471 671 l 1
- 179 140 l 5
+ 179 140 l 1
  471 140 l 1
  471 0 l 1
  0 0 l 1
@@ -675,8 +688,6 @@ SplineSet
  317 0 l 1
  185 0 l 25
  0 671 l 25
-0 671 m 1049
-0 671 m 1025
 EndSplineSet
 Validated: 1
 EndChar
@@ -710,7 +721,7 @@ StartChar: R
 Encoding: 82 82 23
 Width: 465
 VWidth: 0
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
@@ -744,7 +755,7 @@ Fore
 SplineSet
 150 140 m 1
  252 140 l 1
- 187 214 l 5
+ 187 214 l 1
  282 302 l 1
  321 255 l 1
  321 671 l 1
@@ -767,16 +778,16 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-150 484 m 5
- 321 484 l 5
- 321 671 l 5
- 150 671 l 5
- 150 484 l 5
+150 484 m 1
+ 321 484 l 1
+ 321 671 l 1
+ 150 671 l 1
+ 150 484 l 1
 0 0 m 1
- 0 811 l 5
- 465 811 l 5
- 465 344 l 5
- 150 344 l 5
+ 0 811 l 1
+ 465 811 l 1
+ 465 344 l 1
+ 150 344 l 1
  150 0 l 1
  0 0 l 1
 EndSplineSet
@@ -828,7 +839,7 @@ SplineSet
  150 811 l 1
  0 811 l 1
 EndSplineSet
-Validated: 524293
+Validated: 5
 EndChar
 
 StartChar: backslash
@@ -855,7 +866,7 @@ SplineSet
  150 811 l 1
  0 811 l 1
 EndSplineSet
-Validated: 524297
+Validated: 9
 EndChar
 EndChars
 EndSplineFont
