@@ -36,7 +36,6 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
 Lookup: 258 0 0 "kern-lookup" { "left-char-right-full" [153,0,2] "left-char-upper-and-lower-point" [153,15,4] "left-char-upper-bar-and-lower-point" [153,0,4] "left-char-right-upper-bar-only" [153,15,4] "left-char-right-lower-point-only" [153,0,4] "left-char-lower-bar-and-upper-point" [153,0,2] "left-char-upper-point-only" [153,0,2] "left-char-x-like" [153,0,2] "left-char-d-shape" [153,0,2] } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 MarkAttachSets: 2
@@ -45,79 +44,79 @@ MarkAttachSets: 2
 DEI: 91125
 KernClass2: 2 6 "left-char-d-shape"
  7 B D b d
- 35 A B C D E F G H K L M N O P Q R U W
- 5 I J Z
- 1 S
- 1 T
- 5 V X Y
+ 71 A a B b C c D d E e F f G g H h K k L l M m N n O o P p Q q R r U u W w
+ 11 I i J j Z z
+ 3 S s
+ 3 T t
+ 11 V v X x Y y
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} -70 {} -70 {} -70 {} -70 {}
 KernClass2: 3 6 "left-char-x-like"
- 3 V Y
- 1 X
- 35 A B C D E F G H K L M N O P Q R U W
- 5 I J Z
- 1 S
- 1 T
- 5 V X Y
+ 7 V v Y y
+ 3 X x
+ 71 A a B b C c D d E e F f G g H h K k L l M m N n O o P p Q q R r U u W w
+ 11 I i J j Z z
+ 3 S s
+ 3 T t
+ 11 V v X x Y y
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -30 {} -30 {} -30 {} -80 {} -80 {} 0 {} -30 {} -70 {} -30 {} -80 {} -80 {}
 KernClass2: 2 6 "left-char-upper-point-only"
- 5 F J T
- 35 A B C D E F G H K L M N O P Q R U W
- 5 I J Z
- 1 S
- 1 T
- 5 V X Y
+ 11 F f J j T t
+ 71 A a B b C c D d E e F f G g H h K k L l M m N n O o P p Q q R r U u W w
+ 11 I i J j Z z
+ 3 S s
+ 3 T t
+ 11 V v X x Y y
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -50 {} -50 {} -150 {} -80 {}
 KernClass2: 2 7 "left-char-lower-bar-and-upper-point"
- 3 G S
- 35 A B C D E F G H K L M N O P Q R U W
- 3 I J
- 1 S
- 1 T
- 5 V X Y
- 1 Z
+ 7 G g S s
+ 71 A a B b C c D d E e F f G g H h K k L l M m N n O o P p Q q R r U u W w
+ 7 I i J j
+ 3 S s
+ 3 T t
+ 11 V v X x Y y
+ 3 Z z
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -50 {} -10 {} -50 {} -50 {} -30 {} -50 {}
 KernClass2: 2 7 "left-char-right-lower-point-only"
- 1 L
- 35 A B C D E F G H K L M N O P Q R U W
- 5 I J Z
- 1 S
- 1 T
- 3 V Y
- 1 X
+ 3 L l
+ 71 A a B b C c D d E e F f G g H h K k L l M m N n O o P p Q q R r U u W w
+ 11 I i J j Z z
+ 3 S s
+ 3 T t
+ 7 V v Y y
+ 3 X x
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -50 {} -150 {} -181 {} -180 {} -80 {}
 KernClass2: 2 6 "left-char-upper-bar-and-lower-point"
- 1 R
- 35 A B C D E F G H K L M N O P Q R U W
- 5 I J Z
- 1 S
- 1 T
- 5 V X Y
+ 3 R r
+ 71 A a B b C c D d E e F f G g H h K k L l M m N n O o P p Q q R r U u W w
+ 11 I i J j Z z
+ 3 S s
+ 3 T t
+ 11 V v X x Y y
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -50 {} -50 {} -50 {} -30 {}
 KernClass2: 2 6 "left-char-upper-and-lower-point"
- 9 C E I K Z
- 35 A B C D E F G H K L M N O P Q R U W
- 5 I J Z
- 1 S
- 1 T
- 5 V X Y
+ 19 C c E e I i K k Z z
+ 71 A a B b C c D d E e F f G g H h K k L l M m N n O o P p Q q R r U u W w
+ 11 I i J j Z z
+ 3 S s
+ 3 T t
+ 11 V v X x Y y
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -150 {} -10 {} -10 {} -30 {}
 KernClass2: 2 7 "left-char-right-upper-bar-only"
- 1 P
- 35 A B C D E F G H K L M N O P Q R U W
- 3 I Z
- 1 S
- 1 T
- 5 V X Y
- 1 J
+ 3 P p
+ 71 A a B b C c D d E e F f G g H h K k L l M m N n O o P p Q q R r U u W w
+ 7 I i Z z
+ 3 S s
+ 3 T t
+ 11 V v X x Y y
+ 3 J j
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -10 {} -150 {} -10 {} -10 {} -100 {}
 KernClass2: 2 6 "left-char-right-full"
- 15 A H M N O Q U W
- 35 A B C D E F G H K L M N O P Q R U W
- 5 I J Z
- 1 S
- 1 T
- 5 V X Y
+ 31 A a H h M m N n O o Q q U u W w
+ 71 A a B b C c D d E e F f G g H h K k L l M m N n O o P p Q q R r U u W w
+ 11 I i J j Z z
+ 3 S s
+ 3 T t
+ 11 V v X x Y y
  0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -150 {} -50 {} -50 {} -50 {} -30 {}
 Encoding: ISO8859-1
 UnicodeInterp: none
@@ -876,6 +875,7 @@ SplineSet
  0 811 l 1
  471 811 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: b
@@ -904,6 +904,7 @@ SplineSet
  150 671 l 1
  150 484 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: c
@@ -924,6 +925,7 @@ SplineSet
  432 140 l 1
  432 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: d
@@ -947,6 +949,7 @@ SplineSet
  321 140 l 1
  321 639 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: e
@@ -971,6 +974,7 @@ SplineSet
  394 484 l 1
  394 344 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: f
@@ -993,6 +997,7 @@ SplineSet
  344 484 l 1
  344 344 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: g
@@ -1017,6 +1022,7 @@ SplineSet
  502 671 l 25
  150 671 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: h
@@ -1041,6 +1047,7 @@ SplineSet
  352 811 l 1
  502 811 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: i
@@ -1065,6 +1072,7 @@ SplineSet
  372 140 l 1
  372 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: j
@@ -1087,6 +1095,7 @@ SplineSet
  0 671 l 25
  0 811 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: k
@@ -1113,6 +1122,7 @@ SplineSet
  0 0 l 1
  0 811 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: l
@@ -1131,6 +1141,7 @@ SplineSet
  432 140 l 1
  432 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: m
@@ -1155,6 +1166,7 @@ SplineSet
  0 811 l 9
  792 811 l 17
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: n
@@ -1177,6 +1189,7 @@ SplineSet
  321 811 l 1
  471 811 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: o
@@ -1198,6 +1211,7 @@ SplineSet
  471 0 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: p
@@ -1221,6 +1235,7 @@ SplineSet
  150 0 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: q
@@ -1245,6 +1260,7 @@ SplineSet
  471 0 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: r
@@ -1272,6 +1288,7 @@ SplineSet
  150 671 l 1
  150 484 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: s
@@ -1296,6 +1313,7 @@ SplineSet
  321 344 l 25
  0 344 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: t
@@ -1316,6 +1334,7 @@ SplineSet
  0 671 l 25
  0 811 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u
@@ -1336,6 +1355,7 @@ SplineSet
  471 0 l 1
  0 0 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: v
@@ -1357,6 +1377,7 @@ SplineSet
  185 0 l 25
  0 671 l 25
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: w
@@ -1381,6 +1402,7 @@ SplineSet
  792 811 l 1
  792 0 l 9
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: x
@@ -1417,6 +1439,7 @@ SplineSet
  373 450 343 407 343 407 c 1
  343 407 376 356 406 304 c 2
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: y
@@ -1444,6 +1467,7 @@ SplineSet
  403 502 l 2
  373 450 326 382 326 382 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: z
@@ -1466,6 +1490,7 @@ SplineSet
  293 671 l 1
  0 671 l 1
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
