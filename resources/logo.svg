@@ -26,11 +26,11 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="0.0"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="-1.0465616"
-     inkscape:cy="7.9251525"
+     inkscape:zoom="8"
+     inkscape:cx="11.281806"
+     inkscape:cy="11.447858"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -46,7 +46,8 @@
      inkscape:window-maximized="1"
      inkscape:snap-page="true"
      inkscape:snap-bbox="true"
-     inkscape:bbox-paths="true" />
+     inkscape:bbox-paths="true"
+     inkscape:pagecheckerboard="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -64,16 +65,25 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-40.065475,-111.64049)">
+    <rect
+       style="opacity:1;vector-effect:none;fill:#1565c0;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:22.9260006;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect846"
+       width="8.4666662"
+       height="8.4666662"
+       x="40.065475"
+       y="111.64049"
+       rx="0.52916664"
+       ry="0.52916664" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:10.02219582px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#1565c0;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="40.159431"
-       y="120.10715"
+       style="font-style:normal;font-weight:normal;font-size:8.01775646px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.26458332;"
+       x="40.987305"
+       y="119.26048"
        id="text817"><tspan
          sodipodi:role="line"
          id="tspan815"
-         x="40.159431"
-         y="120.10715"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.690341px;font-family:Exzellenz;-inkscape-font-specification:Exzellenz;fill:#1565c0;fill-opacity:1;stroke-width:0.26458332">EZ</tspan></text>
+         x="40.987305"
+         y="119.26048"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.5522728px;font-family:Exzellenz;-inkscape-font-specification:Exzellenz;fill:#ffffff;fill-opacity:1;stroke-width:0.26458332;">EZ</tspan></text>
   </g>
 </svg>
