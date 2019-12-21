@@ -1,0 +1,21 @@
+@font-face {
+  font-family: exzellenz;
+  src: url(fonts/exzellenz.ttf);
+}
+
+.header-nav-link, .collapsible-header {
+    font-family: "Muli";
+}
+
+.brand-logo {
+    font-family: "exzellenz";
+    top: 0.15em;
+}
+
+.header {
+    font-family: "Merriweather";
+}
+
+.text-body, .collapsible-body {
+    font-family: "Roboto";
+}
