@@ -4,7 +4,7 @@
 <head>
     <title>Exzellenz Generator</title>
 
-    <link rel="icon" href=favicon.ico>
+    <link rel="icon" href="favicon.ico">
 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
 
@@ -63,72 +63,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   	<script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            M.Sidenav.init(document.querySelectorAll('.sidenav'));
-            M.FormSelect.init(document.querySelectorAll('select'));
-            
-            var textInputBox = document.getElementById('output-text');
-            var outputTypeSelect = document.getElementById('output-format');
-            
-            var canvas = SVG().addTo("#output-container").size('100%', '100%');
-            
-            // uncomment this line to visualize the canvas
-            //canvas.rect('100%', '100%').fill("#0000007f");
-            
-            var DEFAULT_SIZE = 100;
-            var M_MULT = 811/1024;
-            
-            var outputTextElement = canvas.plain("");
-            outputTextElement.fill("#1565c0");
-            outputTextElement.font({
-  				family:   'exzellenz',
-  				size:     DEFAULT_SIZE
-			});
-            
-            var defaultTransform = outputTextElement.transform();
-            console.log(defaultTransform);
-            
-            function validateInputs() {
-            	return textInputBox.checkValidity() && outputTypeSelect.checkValidity();
-            }
-            
-            // allows getting the size of the actual canvas, NOT the size occupied by drawn elements
-            function getCanvasBBox() {
-            	// draw an invisible rectangle over the whole canvas
-            	var r = canvas.rect('100%', '100%').fill("#00000000");
-            	// get its bounding box
-            	var b = r.bbox();
-            	// remove the invisible rectangle
-            	r.remove();
-            	
-            	// return the relevant numbers
-            	//return { 'width': b.width, 'height', b.height };
-            	return b;
-            }
-            
-            var drawText = function() {
-            	outputTextElement.transform(defaultTransform);
-            	
-            	var outputText = validateInputs() ? textInputBox.value : 'ERROR';
-            	outputTextElement.text(outputText);
-            	
-            	var canvasBBox = getCanvasBBox();
-            	var textBBox = outputTextElement.bbox();
-            	
-            	var sf = canvasBBox.width / textBBox.width;
-            	
-            	outputTextElement.scale(sf, 0, 0);
-            	outputTextElement.move(0, 0);
-            	
-            	canvas.height(Math.ceil(M_MULT * sf * outputTextElement.bbox().height));
-            }
-            
-            drawText();
-            textInputBox.addEventListener('input', drawText);
-            window.addEventListener('resize', drawText);
-        });
-    </script>
+    <script src="generator.js"></script>
 </body>
 
 </html>
