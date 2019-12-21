@@ -19,3 +19,7 @@
 .text-body, .collapsible-body {
     font-family: "Roboto";
 }
+
+#output-container {
+	height: 200%;
+}
