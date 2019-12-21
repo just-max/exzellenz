@@ -1,3 +1,4 @@
+![Exzellenz font logo](docs/favicon.ico) 
 # Exzellenz Font
 ### About
 An especially excellent font. Completely and wholly unrelated to the logo of the Technical University of Munich.
