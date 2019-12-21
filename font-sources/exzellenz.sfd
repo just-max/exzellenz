@@ -3,7 +3,7 @@ FontName: Exzellenz
 FullName: Exzellenz
 FamilyName: Exzellenz
 Weight: Regular
-Copyright: Copyright (c) 2019, Max Lang,,,
+Copyright: Copyright (c) 2019, Max Lang
 UComments: "2019-12-17: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1576616356
-ModificationTime: 1576848796
+ModificationTime: 1576860825
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,6 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
+OS2Vendor: 'PfEd'
 Lookup: 258 0 0 "kern-lookup" { "left-char-right-full" [153,0,2] "left-char-upper-and-lower-point" [153,15,4] "left-char-upper-bar-and-lower-point" [153,0,4] "left-char-right-upper-bar-only" [153,15,4] "left-char-right-lower-point-only" [153,0,4] "left-char-lower-bar-and-upper-point" [153,0,2] "left-char-upper-point-only" [153,0,2] "left-char-x-like" [153,0,2] "left-char-d-shape" [153,0,2] } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 MarkAttachSets: 2
@@ -43,7 +44,7 @@ MarkAttachSets: 2
 "right-full" 11 A H M N U W
 DEI: 91125
 KernClass2: 2 6 "left-char-d-shape"
- 3 B D
+ 7 B D b d
  35 A B C D E F G H K L M N O P Q R U W
  5 I J Z
  1 S
@@ -84,7 +85,7 @@ KernClass2: 2 7 "left-char-right-lower-point-only"
  1 T
  3 V Y
  1 X
- 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -50 {} -150 {} -171 {} -180 {} -80 {}
+ 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} 0 {} -10 {} -50 {} -150 {} -181 {} -180 {} -80 {}
 KernClass2: 2 6 "left-char-upper-bar-and-lower-point"
  1 R
  35 A B C D E F G H K L M N O P Q R U W
@@ -124,7 +125,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 80 10 5
+WinInfo: 52 13 5
 BeginPrivate: 1
 BlueValues 15 [-20 0 811 811]
 EndPrivate

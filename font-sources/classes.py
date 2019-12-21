@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+from itertools import chain
+
 right_full = {"A", "H", "M", "N", "O", "Q", "U", "W"}
 right_upper_bar = {"P", "R"}
 right_lower_bar = {"G", "S"}
@@ -75,15 +77,15 @@ if __name__ == "__main__":
 
         longest_name_length = max(len(name) for name in names())
 
-        f_string = "{c_name:>" + str(longest_name_length) + "}"
+        f_string_c_name = "{c_name:>" + str(longest_name_length) + "}"
         collisions = []
         all_characters = set()
 
-        print(f"{side_name.capitalize()} side:")
+        print(f"{side_name.capitalize()} side collisions:")
         print(" " * longest_name_length, *names(), sep='|')
 
         for kern_class in kern_classes:
-            print(f_string.format(c_name=kern_class.name), end="")
+            print(f_string_c_name.format(c_name=kern_class.name), end="")
 
 
             def cell(content):
@@ -111,15 +113,14 @@ if __name__ == "__main__":
         else:
             header = f"{side_name.capitalize()} side: {len(all_characters)} characters in " \
                      f"{len(list((k for k in kern_classes if k.characters)))} classes:"
-            out_content = "\n".join((f_string.format(c_name=v.name) +
-                                     f": {' '.join(sorted(v.characters))}" for i, v in enumerate(kern_classes) if
-                                     v.characters))
+
+            out_content = '\n'.join((f_string_c_name.format(c_name=c.name) +
+                                     f": {' '.join(chain(*((c, c.lower()) for c in sorted(c.characters))))}"
+                                     for i, c in enumerate(kern_classes) if c.characters))
 
             print(header)
             print(out_content)
 
             with open("classes-output.txt", "a") as out_file:
                 out_file.write(f"{header}\n{out_content}\n")
-
-        print()
 
