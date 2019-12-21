@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1576616356
-ModificationTime: 1576860825
+ModificationTime: 1576968481
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,8 +36,7 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
-Lookup: 258 0 0 "kern-lookup" { "left-char-right-full" [153,0,2] "left-char-upper-and-lower-point" [153,15,4] "left-char-upper-bar-and-lower-point" [153,0,4] "left-char-right-upper-bar-only" [153,15,4] "left-char-right-lower-point-only" [153,0,4] "left-char-lower-bar-and-upper-point" [153,0,2] "left-char-upper-point-only" [153,0,2] "left-char-x-like" [153,0,2] "left-char-d-shape" [153,0,2] } ['kern' ('latn' <'dflt' > ) ]
+Lookup: 258 0 0 "kern-lookup" { "left-char-right-full" [153,0,2] "left-char-upper-and-lower-point" [153,15,4] "left-char-upper-bar-and-lower-point" [153,0,4] "left-char-right-upper-bar-only" [153,15,4] "left-char-right-lower-point-only" [153,0,4] "left-char-lower-bar-and-upper-point" [153,0,2] "left-char-upper-point-only" [153,0,2] "left-char-x-like" [153,0,2] "left-char-d-shape" [153,0,2] "space-char" [153,15,0] } ['kern' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 MarkAttachSets: 2
 "left-full" 31 A B C D E F G H K L M N P R U W
@@ -125,12 +124,12 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 52 13 5
+WinInfo: 26 13 5
 BeginPrivate: 1
 BlueValues 15 [-20 0 811 811]
 EndPrivate
 AnchorClass2: "xyz"""  "as"""  "abc""" 
-BeginChars: 256 52
+BeginChars: 256 53
 
 StartChar: T
 Encoding: 84 84 0
@@ -1492,6 +1491,14 @@ SplineSet
  0 671 l 1
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: space
+Encoding: 32 32 52
+Width: 314
+VWidth: 0
+Flags: WO
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

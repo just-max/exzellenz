@@ -1,9 +1,19 @@
+function getUrlParameterByName(name) {
+	return new URL(window.location.href).searchParams.get(name);
+}
+
 document.addEventListener('DOMContentLoaded', function() {
             M.Sidenav.init(document.querySelectorAll('.sidenav'));
             M.FormSelect.init(document.querySelectorAll('select'));
             
             var textInputBox = document.getElementById('output-text');
             var outputTypeSelect = document.getElementById('output-format');
+            
+            var defaultText = getUrlParameterByName('text');
+            if (defaultText) {
+            	textInputBox.value = defaultText;
+            	M.updateTextFields();
+            }
             
             var canvas = SVG().addTo("#output-container").size('100%', '100%');
             
@@ -21,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function() {
 			});
             
             var defaultTransform = outputTextElement.transform();
-            console.log(defaultTransform);
             
             function validateInputs() {
             	return textInputBox.checkValidity() && outputTypeSelect.checkValidity();
@@ -42,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
             var drawText = function() {
             	outputTextElement.transform(defaultTransform);
             	
-            	var outputText = validateInputs() ? textInputBox.value : 'ERROR';
+            	var outputText = validateInputs() ? textInputBox.value : 'NO TEXT';
             	outputTextElement.text(outputText);
             	
             	var canvasBBox = getCanvasBBox();
