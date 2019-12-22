@@ -4,7 +4,7 @@
 }
 
 .header-nav-link, .collapsible-header {
-    font-family: "Muli";
+    font-family: "Roboto Mono";
 }
 
 .brand-logo {
@@ -13,7 +13,7 @@
 }
 
 .header {
-    font-family: "Merriweather";
+    font-family: "Roboto Slab";
 }
 
 .text-body, .collapsible-body {

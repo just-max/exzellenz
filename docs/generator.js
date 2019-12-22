@@ -68,8 +68,4 @@ document.addEventListener('DOMContentLoaded', function() {
             drawText();
             textInputBox.addEventListener('input', drawText);
             window.addEventListener('resize', drawText);
-            
-            //text.on('rebuild', function() {
-			  // whatever you need to do after rebuilding
-			//})
         });
