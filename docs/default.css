@@ -12,6 +12,11 @@
     top: 0.15em;
 }
 
+.exzellenz-text {
+    font-family: "exzellenz";
+    font-size: 1.1rem;
+}
+
 .header {
     font-family: "Roboto Slab";
 }

@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function() {
             document.body.removeChild(element);
             
             // hide the extra canvas again
-            downloadContainer.setAttribute('hidden', '');
+            downloadContainer.setAttribute('hidden', '""');
         }
     }
     

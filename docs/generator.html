@@ -42,6 +42,13 @@
         
         <div class="section">
             <h2 class="header">Text Generator</h2>
+            <div class="row">
+                <div class="col m8 s12">
+                    <p>Use this tool to generate text set in the <span class="blue-text text-darken-3 exzellenz-text">EXZELLENZ</span> typeface. Enter the desired text and select the options below. The font only contains glyphs for upper case letters (A-Z) but will render lower case characters as their upper case equivalents. The SVG format option requires the <span class="blue-text text-darken-3 exzellenz-text">EXZELLENZ</span> font installed locally to work. The font can be downloaded from the <a href="https://github.com/just-max/exzellenz">github</a> page.
+                    </p>
+                    <p>The <span class="blue-text text-darken-3 exzellenz-text">EXZELLENZ</span> font is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.</p>
+                </div>
+            </div>
         </div>
         
         <div class="row">
@@ -64,21 +71,6 @@
                             </select>
                             <label>Format</label>
                         </div>
-                    </div>
-                    
-                    <div class="row">
-<!--
-                        <div class="input-field col s12">
-                            <input id="output-text-color" type="color" required>
-                            <label for="output-text-color">Text color</label>
-                        </div>
--->
-<!--
-                        <div class="input-field col s6">
-                            <input id="output-padding" type="text" required pattern="[0-9]+" class="validate" value="32">
-                            <label for="output-padding">Text Padding (px)</label>
-                        </div>
--->
                     </div>
                     
                     <div class="row">
@@ -112,7 +104,7 @@
         </div>
     </div>
     
-    <div  id="output-download-container"></div>
+    <div hidden="" id="output-download-container"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   	<script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
