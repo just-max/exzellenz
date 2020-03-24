@@ -39,27 +39,80 @@
     </ul>
 
     <div class="container">
+        
         <div class="section">
             <h2 class="header">Text Generator</h2>
         </div>
+        
         <div class="row">
-		    <div class="input-field col xl5 m4 s8">
-				<input id="output-text" type="text" required pattern="[A-Za-z ]+" class="validate">
-				<label for="output-text">Text</label>
+            
+            <div class="col xl4 m6 s12 z-depth-1" style="border-radius: 4px">
+                <div style="width: 90%; margin: auto">
+                    <div class="section">
+                        <h5 class="header">Options</h5>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="input-field col s8">
+                            <input id="output-text" type="text" required pattern="[A-Za-z ]+" class="validate">
+                            <label for="output-text">Text (A-Z)</label>
+                        </div>
+                        <div class="input-field col s4">
+                            <select id="output-format">
+                              <option value="output-format-svg" selected>SVG</option>
+                              <option value="output-format-png" disabled>PNG (coming soon)</option>
+                            </select>
+                            <label>Format</label>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+<!--
+                        <div class="input-field col s12">
+                            <input id="output-text-color" type="color" required>
+                            <label for="output-text-color">Text color</label>
+                        </div>
+-->
+<!--
+                        <div class="input-field col s6">
+                            <input id="output-padding" type="text" required pattern="[0-9]+" class="validate" value="32">
+                            <label for="output-padding">Text Padding (px)</label>
+                        </div>
+-->
+                    </div>
+                    
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="output-text-height" type="text" required pattern="[1-9][0-9]*" class="validate" value="128">
+                            <label for="output-text-height">Text Height (px)</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="output-padding" type="text" required pattern="[0-9]+" class="validate" value="32">
+                            <label for="output-padding">Text Padding (px)</label>
+                        </div>
+                    </div>
+                    
+                    <p>
+                        <label>
+                            <input id="output-background-transparent" type="checkbox">
+                            <span>Transparent Background</span>
+                        </label>
+                    </p>
+                </div>
+
+                <div title="" class="section right-align">
+                    <a id="download-button" class="white-text blue darken-3 btn-flat">Download<i class="material-icons right">get_app</i></a>
+                </div>
+            </div>
+            
+		    <div class="col xl8 m6 s12">
+		    	<div id="output-preview-container" class="container"></div>
 		    </div>
-		    <div class="input-field col xl1 m2 s4">
-				<select id="output-format">
-				  <option value="output-format-svg" selected>SVG</option>
-				  <option value="output-format-png" disabled>PNG (coming soon)</option>
-				</select>
-				<label>Format</label>
-		    </div>
-		    <div class="col m6 s12">
-		    	<div id="output-container" class="container">
-		    	</div>
-		    </div>
+            
         </div>
     </div>
+    
+    <div  id="output-download-container"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   	<script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
