@@ -25,10 +25,16 @@
     font-family: "Roboto";
 }
 
-#output-container {
-	height: 200%;
+.card {
+	border-radius: 4px;
 }
 
-.input-field>label {
-    color
+.text-preview-canvas {
+	max-height: 40vh;
 }
+
+.text-preview-text {
+	font-family: exzellenz;
+	fill: #1565c0;
+}
+

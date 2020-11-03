@@ -12,6 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Slab&display=swap" rel="stylesheet">
 
     <link href="default.css" rel="stylesheet">
+    <link href="generator.css" rel="stylesheet">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8">
@@ -44,7 +45,7 @@
             <h2 class="header">Text Generator</h2>
             <div class="row">
                 <div class="col m8 s12">
-                    <p>Use this tool to generate text set in the <span class="blue-text text-darken-3 exzellenz-text">EXZELLENZ</span> typeface. Enter the desired text and select the options below. The font only contains glyphs for upper case letters (A-Z) but will render lower case characters as their upper case equivalents. The SVG format option requires the <span class="blue-text text-darken-3 exzellenz-text">EXZELLENZ</span> font installed locally to work. The font can be downloaded from the <a href="https://github.com/just-max/exzellenz">github</a> page.
+                    <p>Use this tool to generate text set in the <span class="blue-text text-darken-3 exzellenz-text">EXZELLENZ</span> typeface. Enter the desired text and select the options below. The font only contains glyphs for upper case letters (A-Z) but will render lower case characters as their upper case equivalents. The SVG format option embeds the <span class="blue-text text-darken-3 exzellenz-text">EXZELLENZ</span> font, but this only works when viewing in a browser. If the font is installed locally, the SVG should work in any viewer. The font can be downloaded from the <a href="https://github.com/just-max/exzellenz">github</a> page.
                     </p>
                     <p>The <span class="blue-text text-darken-3 exzellenz-text">EXZELLENZ</span> font is licensed under a Creative Commons Attribution-NoDerivatives 4.0 International License.</p>
                 </div>
@@ -53,7 +54,7 @@
         
         <div class="row">
             
-            <div class="col xl4 m6 s12 z-depth-1" style="border-radius: 4px">
+            <div class="col xl4 m6 s12 card">
                 <div style="width: 90%; margin: auto">
                     <div class="section">
                         <h5 class="header">Options</h5>
@@ -66,8 +67,8 @@
                         </div>
                         <div class="input-field col s4">
                             <select id="output-format">
-                              <option value="output-format-svg" selected>SVG</option>
-                              <option value="output-format-png" disabled>PNG (coming soon)</option>
+                              <option value="output-format-png" selected>PNG</option>
+                              <option value="output-format-svg">SVG</option>
                             </select>
                             <label>Format</label>
                         </div>
@@ -98,7 +99,10 @@
             </div>
             
 		    <div class="col xl8 m6 s12">
-		    	<div id="output-preview-container" class="container"></div>
+		    	<div class="container">
+                    <div class=""><h6 class="header">Preview</h6></div>
+		    	    <div id="output-preview-container" class="center-align section"></div>
+		    	</div>
 		    </div>
             
         </div>
@@ -107,7 +111,6 @@
     <div hidden="" id="output-download-container"></div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  	<script src="https://cdn.jsdelivr.net/npm/@svgdotjs/svg.js@3.0/dist/svg.min.js"></script>
     <script src="generator.js"></script>
 </body>
 
