@@ -21,7 +21,7 @@ function getSvgTrueBBox(svgEl) {
 }
 
 // the font size used to measure the rendered bounding box
-// higher values seem to increasy accuracy but with quickly diminshing returns
+// higher values seem to increase accuracy but with quickly diminishing returns
 const MEASUREMENT_FONT_SIZE = 1024;
 
 const XMLNS = 'http://www.w3.org/2000/svg';
@@ -137,7 +137,8 @@ function createSVGDataURL(text, fontSize, padding, backgroundColor,
         fontFamily, fontData, textColor = '#000', xmlns = XMLNS) {
     var svgElement = document.createElementNS(xmlns, 'svg');
     svgElement.setAttribute('xmlns', xmlns);
-    svgElement.setAttribute('viewBox', '0 0 100 100');
+    // workaround for bug in chrome: set "approximate" view box size: https://github.com/just-max/exzellenz/issues/5
+    svgElement.setAttribute('viewBox', `0 0 ${fontSize * text.length * 0.5} ${fontSize}`);
     
     var textElement = document.createElementNS(xmlns, 'text');
     textElement.setAttribute('word-spacing', '0px');
@@ -204,7 +205,6 @@ function createPNGDataURL(dataURL, width, height) {
             document.body.appendChild(canvas);
             canvasCtx.drawImage(loadedImg, 0, 0);
             pngDataURL = canvas.toDataURL('image/png');
-            console.log(pngDataURL);
             canvas.remove();
             return pngDataURL;
         });
