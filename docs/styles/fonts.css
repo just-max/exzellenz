@@ -3,18 +3,18 @@
   font-family: Exzellenz;
   font-style: normal;
   font-weight: normal;
-  src: url(/fonts/exzellenz/exzellenz.ttf) format('ttf');
-  src: url(/fonts/exzellenz/exzellenz.woff) format('woff');
-  src: url(/fonts/exzellenz/exzellenz.woff2) format('woff2');
+  src: url(../fonts/exzellenz/exzellenz.woff2) format('woff2'),
+       url(../fonts/exzellenz/exzellenz.woff) format('woff'),
+       url(../fonts/exzellenz/exzellenz.ttf) format('ttf');
 }
 
 @font-face {
   font-family: 'Material Symbols Outlined';
   font-style: normal;
   font-weight: 400;
-  src: url(/fonts/material_symbols/material_symbols_outlined.ttf) format('ttf');
-  src: url(/fonts/material_symbols/material_symbols_outlined.woff) format('woff');
-  src: url(/fonts/material_symbols/material_symbols_outlined.woff2) format('woff2');
+  src: url(../fonts/material_symbols/material_symbols_outlined.woff2) format('woff2'),
+       url(../fonts/material_symbols/material_symbols_outlined.woff) format('woff'),
+       url(../fonts/material_symbols/material_symbols_outlined.ttf) format('ttf');
 }
 
 .material-symbols-outlined {
@@ -39,9 +39,9 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/fonts/roboto/roboto.ttf) format('ttf');
-  src: url(/fonts/roboto/roboto.woff) format('woff');
-  src: url(/fonts/roboto/roboto.woff2) format('woff2');
+  src: url(../fonts/roboto/roboto.woff2) format('woff2'),
+       url(../fonts/roboto/roboto.woff) format('woff'),
+       url(../fonts/roboto/roboto.ttf) format('ttf');
 }
 
 @font-face {
@@ -49,9 +49,9 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/fonts/roboto/roboto_mono.ttf) format('ttf');
-  src: url(/fonts/roboto/roboto_mono.woff) format('woff');
-  src: url(/fonts/roboto/roboto_mono.woff2) format('woff2');
+  src: url(../fonts/roboto/roboto_mono.woff2) format('woff2'),
+       url(../fonts/roboto/roboto_mono.woff) format('woff'),
+       url(../fonts/roboto/roboto_mono.ttf) format('ttf');
 }
 
 @font-face {
@@ -59,7 +59,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/fonts/roboto/roboto_slab.ttf) format('ttf');
-  src: url(/fonts/roboto/roboto_slab.woff) format('woff');
-  src: url(/fonts/roboto/roboto_slab.woff2) format('woff2');
+  src: url(../fonts/roboto/roboto_slab.woff2) format('woff2'),
+       url(../fonts/roboto/roboto_slab.woff) format('woff'),
+       url(../fonts/roboto/roboto_slab.ttf) format('ttf');
 }
