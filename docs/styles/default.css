@@ -1,6 +1,6 @@
 @font-face {
   font-family: exzellenz;
-  src: url(fonts/exzellenz.ttf);
+  src: url(/fonts/exzellenz.ttf);
 }
 
 .header-nav-link, .collapsible-header {

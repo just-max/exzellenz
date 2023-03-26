@@ -328,7 +328,7 @@ function fetchAsDataURL(url) {
 
 // this gets set by a promise
 var exzellenzFontDataURL;
-const fontLoadedPromise = fetchAsDataURL('fonts/exzellenz.woff')
+const fontLoadedPromise = fetchAsDataURL('/fonts/exzellenz.woff')
     .then(dataURL => { exzellenzFontDataURL = dataURL; return dataURL; });
 
 document.addEventListener('DOMContentLoaded', function() {
