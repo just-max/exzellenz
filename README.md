@@ -17,5 +17,11 @@ The font is licensed under the [Open Font License, Version 1.1](http://scripts.s
 ## Tools
 The font is made using [FontForge](https://fontforge.org/en-US/).
 
-## Licence
-MPL for generator code, OFL for the font. See LICENCE for details.
+## Licences
+
+The generator is licensed under the Mozilla Public License Version 2.0.
+The Exzellenz typeface is licensed under the SIL Open Font License, Version 1.1.
+This project uses the Roboto typeface and the Material Symbols typeface under the Apache License, Version 2.0.
+This project also uses MaterializeCSS under the MIT License.
+
+For more details, see `NOTICE` and `LICENCE`.
