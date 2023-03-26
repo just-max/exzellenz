@@ -1,14 +1,7 @@
-The font software in the following files:
-font-sources/exzellenz.sfd
-docs/fonts/exzellenz.ttf
-and their derivatives within this project in any form are licensed
-under the SIL Open Font License, Version 1.1.
+# Licence
 
-You should have received a copy of the licence along with this
-work. If not, see <http://scripts.sil.org/OFL>.
+For notice of copyright, see `NOTICE`.
 
-Files in this project that are not licensed under any other licence
-are licensed under a Mozilla Public License Version 2.0.
+For the Apache License, Version 2.0, see `APACHE-2.0.txt`.
 
-You should have received a copy of the licence along with this
-work. If not, see <http://mozilla.org/MPL/2.0/>.
+For the Mozilla Public License, v. 2.0, see `MPL-2.0.txt`.
