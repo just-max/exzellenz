@@ -1,28 +1,25 @@
-@font-face {
-  font-family: exzellenz;
-  src: url(/fonts/exzellenz.ttf);
-}
+@import url(/styles/fonts.css);
 
 .header-nav-link, .collapsible-header {
-    font-family: "Roboto Mono";
+    font-family: "Roboto Mono", monospace;
 }
 
 .brand-logo {
-    font-family: "exzellenz";
+    font-family: Exzellenz, sans-serif;
     top: 0.15em;
 }
 
 .exzellenz-text {
-    font-family: "exzellenz";
+    font-family: Exzellenz, sans-serif;
     font-size: 1.1rem;
 }
 
 .header {
-    font-family: "Roboto Slab";
+    font-family: "Roboto Slab", serif;
 }
 
 .text-body, .collapsible-body {
-    font-family: "Roboto";
+    font-family: "Roboto", sans-serif;
 }
 
 .card {
@@ -34,7 +31,7 @@
 }
 
 .text-preview-text {
-	font-family: exzellenz;
+	font-family: Exzellenz, sans-serif;
 	fill: #1565c0;
 }
 
